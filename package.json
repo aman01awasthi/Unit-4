@@ -1,16 +1,16 @@
 {
-  "name": "npm",
+  "name": "assignment",
   "version": "1.0.0",
-  "description": "",
-  "main": "npm.js",
-  "dependencies": {
-    "express": "^4.17.3"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Priyabrata Khan",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "description": ""
 }
