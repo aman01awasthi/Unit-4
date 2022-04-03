@@ -1,16 +1,19 @@
 {
-  "name": "npm",
+  "name": "assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "npm.js",
-  "dependencies": {
-    "express": "^4.17.3"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
-  "author": "Priyabrata Khan",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7",
+    "nodemon": "^2.0.15"
+  }
 }
